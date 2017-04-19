@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Аэропорт Байкал - главная</title>
+    <!--Вставить несколько favicon с разными размерами и для планшетов-->
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <!--Используем bootstrap и адаптивную верстку-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--подключить шрифт Google-->
+    <link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <!--Подключить свои стили-->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper container my-container">
+      <header class="heading">
+        <h1>Международный аэропорт Байкал - воздушная гавань Республики Бурятия</h1>
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container">
+              <!-- Название сайта и кнопка раскрытия меню для мобильных (гамбургер)-->
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                <a class="navbar-brand" href="">
+                  <img src="img/airportbaikallogo1.png" alt="Международный аэропорт Байкал" class="neimg-responsive">
+                </a>
+              </div>
+              <!-- Само меню -->
+              <div class="collapse navbar-collapse" id="main-menu">
+                <ul class="nav navbar-nav navbar-right">
+                  <!--кнопка пассажирам c выпадающим списком ссылок-->
+                  <li class="active dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                      <span class = "glyphicon glyphicon-question-sign"></span>
+                      &nbsp;Пассажирам&nbsp;
+                      <span class="sr-only">(текущая)</span>
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a role="menuitem" href="#">Онлайн-табло</a></li>
+                      <li class="divider"></li>
+                      <li><a role="menuitem" href="#">Расписание</a></li>
+                      <li class="divider"></li>
+                      <li><a role="menuitem" href="#">Авиакомпании</a></li>
+                      <li class="divider"></li>
+                      <li><a role="menuitem" href="#">Регистрация</a></li>
+                      <li class="divider"></li>
+                      <li><a role="menuitem" href="#">Авиабилет</a></li>
+                      <li class="divider"></li>
+                      <li><a role="menuitem" href="#">Услуги аэропорта</a></li>
+                      <li class="divider"></li>
+                      <li><a role="menuitem" href="#">Проезд и парковка</a></li>
+                    </ul>
+                  </li>
+                  <!--кнопка партнерам с выпадающим списком ссылок-->
+                  <li class="dropdown">
+                    <a  class="dropdown-toggle" data-toggle="dropdown" href="#">
+                      <span class = "glyphicon glyphicon-briefcase"></span>
+                      &nbsp;Партнерам&nbsp;
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a role="menuitem" href="#">Авиакомпаниям</a></li>
+                      <li class="divider"></li>
+                      <li><a role="menuitem" href="#">Грузовым клиентам</a></li>
+                      <li class="divider"></li>
+                      <li><a role="menuitem" href="#">Арендаторам</a></li>
+                      <li class="divider"></li>
+                      <li><a role="menuitem" href="#">Поставщикам</a></li>
+                      <li class="divider"></li>
+                      <li><a role="menuitem" href="#">Рекламодателям</a></li>
+                      <li class="divider"></li>
+                      <li><a role="menuitem" href="#">Летная медкомиссия</a></li>
+                    </ul>
+                  </li>
+                  <!--кнопка о аэропорте с выпадающим списком ссылок-->
+                  <li>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                      <span class = "glyphicon glyphicon-info-sign"></span>
+                      &nbsp;О Аэропорте&nbsp;
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a role="menuitem" href="#">Характеристики</a></li>
+                      <li class="divider"></li>
+                      <li><a role="menuitem" href="#">Руководство</a></li>
+                      <li class="divider"></li>
+                      <li><a role="menuitem" href="#">Контакты</a></li>
+                      <li class="divider"></li>
+                      <li><a role="menuitem" href="#">История</a></li>
+                      <li class="divider"></li>
+                      <li><a role="menuitem" href="#">Новости</a></li>
+                      <li class="divider"></li>
+                      <li><a role="menuitem" href="#">Вакансии и карьера</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container -->
+        </nav>
+      </header>
+        <hr>
+        <div class="heading"></div>
+        <!--Основная часть страницы-->
+
+        <div class="row">
+          <!--Блок с пиктограммами слева-->
+          <div class="col-sm-4 my-block">блок с пиктограммами услуг для пассажиров </div>
+          <!--Основной блок-->
+          <div class="col-sm-8 my-block">
+            <div class="raw">
+              <div class="col-sm-12 onlinetable">таблица онлайн табло
+              </div>
+            </div>
+            <div class="raw">
+              <div class="col-sm-6 infoblock">блок 1
+              </div>
+              <div class="col-sm-6 infoblock">блок 2
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+        <!--Нижняя часть страницы-->
+        <footer class="container">
+          <div class="row">
+            <div class="col-md-3 hidden-xs">
+              <small>&copy; Аэропорт Байкал 2017г.
+                <br>Шаблон HTML распространяется по лицензии <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>
+                <br>Автор: студент Восточно-Сибиркого государсвенного института культуры Соболев В.В.
+              </small>
+
+            </div>
+          <div class="col-md-4 hidden-xs">
+            <address>670018, Россия, Республика Бурятия, город Улан-Удэ, п. Аэропорт д.10
+
+            </address>
+          </div>
+            <div class="col-xs-12 col-md-5">
+              <img class="metropollogo" src="img/metropollogo.png" alt="группа компаний Метрополь"><br>
+              <span class="metropolslogan">Дороги бывают разные - путь один!</span>
+              <!--выпадающий список на сайты группы компаний метрополь - открываем в другой вкладке или окне-->
+              <div class="dropup btn-group">
+                <button class="btn btn-default" id="dropdownSites" type="button">Сайты группы компаний &laquo;Метрополь&raquo;</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownSites">
+                  <li role="presentation"><a role="menuitem" href="http://www.metropolgroup.ru" target="_blank">Группа МЕТРОПОЛЬ</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://www.metropol.ru" target="_blank">ООО «ИФК «МЕТРОПОЛЬ»</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://ib.metropol.ru" target="_blank">Инвестиционно-банковское направление</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://trade.metropol.ru" target="_blank">Информационно-аналитический портал</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://www.am-metropol.ru" target="_blank">УК «МЕТРОПОЛЬ»</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://www.obibank.ru" target="_blank">КБ «Обибанк»</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://www.metropol-uk.com/rus" target="_blank">METROPOL (UK) Limited</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://www.metropol-cyprus.com" target="_blank">METROPOL (Cyprus) Limited</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://www.metropol.co.jp" target="_blank">METROPOL JAPAN</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://www.metropoldevelopment.ru" target="_blank">УК «МЕТРОПОЛЬ ДЕВЕЛОПМЕНТ»</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://tot.metropol.ru" target="_blank">Венчурный фонд «Русский аккумулятор идей»</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://www.putnik.com" target="_blank">Туристическое агентство «Путник»</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://www.alexandreiii.ru" target="_blank">Alexandre III</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://www.airportbaikal.ru" target="_blank">Аэропорт «Байкал»</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://www.mbc-corp.com" target="_blank">Корпорация «Металлы Восточной Сибири»</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://www.kyokushinkan.ru" target="_blank">Кёкусин-кан каратэ-до</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://www.cruiservaryag.ru" target="_blank">Благотворительный фонд «Крейсер «Варяг»</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://polus.metropol.ru" target="_blank">Полет к вершине планеты</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://baikalfund.ru" target="_blank">Фонд содействия сохранению озера Байкал</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://energyoga.ru" target="_blank">Студия йоги</a></li>
+                  <li role="presentation"><a role="menuitem" href="http://hopestar.ru" target="_blank">Фонд «Под звездой надежды»</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <script src="js/jquery-3.2.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
