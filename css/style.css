@@ -41,14 +41,14 @@ h1 {
 }
 
 .onlinetable {
-  height: 260px;
-  border:1px solid red;
-  margin: 5px;
+  font-size: 50%;
 }
 
 .infoblock {
   height: 100px;
   border:1px solid red;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .metropolslogan {
