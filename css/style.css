@@ -20,37 +20,39 @@ body {
     /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/
     background-color: #464646; }
 
-.my-container {
-  border:1px solid red;
-
-
-}
-
-.my-block {
-  border:1px solid green;
-  height: 400px;
-  font-size: 150%;
-  background-color: rgba(100, 100, 100, 0.8);
-
-  tr
-}
-
+/*стиль для слогана аэропорта*/
 h1 {
-  font-size: 100%;
+  font-size: 50%;
   font-family: 'Lobster';
+
 }
 
 .onlinetable {
-  font-size: 50%;
+  font-size: 100%;
 }
 
-.infoblock {
-  height: 100px;
-  border:1px solid red;
-  vertical-align: middle;
-  text-align: center;
+.onlinetable tbody tr {
+  cursor: pointer;
 }
 
 .metropolslogan {
   font-family: 'Lobster';
+}
+/*Стили для карусели*/
+h4{
+    margin: 0;
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;
+}
+
+.item{
+    background: #333;
+    text-align: center;
+    height: 200px !important;
+}
+
+.carousel{
+    margin-top: 20px;
 }
