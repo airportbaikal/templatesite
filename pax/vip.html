@@ -2,18 +2,18 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Аэропорт Байкал - главная</title>
+    <title>Аэропорт Байкал - онлайн табло</title>
     <!--Вставить несколько favicon с разными размерами и для планшетов-->
-    <link rel="icon" type="/image/png" href="img/favicon.ico">
+    <link rel="icon" type="image/png" href="img/favicon.ico">
     <!--Используем bootstrap и адаптивную верстку-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/bootstrap-social.css" rel="stylesheet">
-    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
     <!--подключить шрифт Google Lobster для слоганов-->
     <link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <!--Подключить свои стили-->
-    <link href="/css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <div class="wrapper container">
@@ -47,7 +47,7 @@
                     <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a role="menuitem" href="pax/onlinetablo.html">Онлайн-табло</a></li>
+                    <li><a role="menuitem" href="#">Онлайн-табло</a></li>
                     <li class="divider"></li>
                     <li><a role="menuitem" href="#">Расписание</a></li>
                     <li class="divider"></li>
@@ -191,7 +191,7 @@
           <div class="raw">
             <!--основная часть блока - онлайн табло-->
             <div class="col-sm-8 col-sm-push-4">
-              <h3><a href="pax/onlinetablo.html">Онлайн табло</a></h3>
+              <h3><a href="#">Онлайн табло</a></h3>
               <ul class="nav nav-tabs">
                 <li class="active">
                   <a data-toggle="tab" href="#panel1">Прилет</a>
@@ -249,6 +249,76 @@
                         <td>09:00</td>
                         <td class="hidden-xs">Ожидается в 09:00</td>
                       </tr>
+                      <tr onclick="$(document).ready(function(){$('#MyModalArrival').modal('show');});" class="success">
+                        <td>ИК-99</td>
+                        <td>Н.АНГАРСК</td>
+                        <td class="hidden-xs">21.04.2017</td>
+                        <td>11:50</td>
+                        <td class="hidden-xs">Совершил посадку в 12:07</td>
+                      </tr>
+                      <tr onclick="$(document).ready(function(){$('#MyModal').modal('show');});">
+                        <td>РД-109</td>
+                        <td>НОВОСИБИРСК (ТЛЧ) -<br> ХАБАРОВСК</td>
+                        <td class="hidden-xs">21.04.2017</td>
+                        <td>18:40</td>
+                        <td class="hidden-xs">Ожидается в 18:40</td>
+                      </tr>
+                      <tr onclick="$(document).ready(function(){$('#MyModal').modal('show');});">
+                        <td>РД-110</td>
+                        <td>ХАБАРОВСК -<br> НОВОСИБИРСК (ТЛЧ)</td>
+                        <td class="hidden-xs">21.04.2017</td>
+                        <td>01:40</td>
+                        <td class="hidden-xs">Ожидается в 01:40</td>
+                      </tr>
+                      <tr onclick="$(document).ready(function(){$('#MyModal').modal('show');});">
+                        <td>ГЛ-115</td>
+                        <td>МОСКВА (ДМД-DME)</td>
+                        <td class="hidden-xs">21.04.2017</td>
+                        <td>08:10</td>
+                        <td class="hidden-xs">Ожидается в 08:10</td>
+                      </tr>
+                      <tr onclick="$(document).ready(function(){$('#MyModal').modal('show');});">
+                        <td>6В-111</td>
+                        <td>КРАСНОКАМЕНСК -<br> ЧИТА (Кадала)</td>
+                        <td class="hidden-xs">21.04.2017</td>
+                        <td>09:00</td>
+                        <td class="hidden-xs">Ожидается в 09:00</td>
+                      </tr>
+                      <tr onclick="$(document).ready(function(){$('#MyModalArrival').modal('show');});" class="success">
+                        <td>ИК-99</td>
+                        <td>Н.АНГАРСК</td>
+                        <td class="hidden-xs">22.04.2017</td>
+                        <td>11:50</td>
+                        <td class="hidden-xs">Совершил посадку в 12:07</td>
+                      </tr>
+                      <tr onclick="$(document).ready(function(){$('#MyModal').modal('show');});">
+                        <td>РД-109</td>
+                        <td>НОВОСИБИРСК (ТЛЧ) -<br> ХАБАРОВСК</td>
+                        <td class="hidden-xs">22.04.2017</td>
+                        <td>18:40</td>
+                        <td class="hidden-xs">Ожидается в 18:40</td>
+                      </tr>
+                      <tr onclick="$(document).ready(function(){$('#MyModal').modal('show');});">
+                        <td>РД-110</td>
+                        <td>ХАБАРОВСК -<br> НОВОСИБИРСК (ТЛЧ)</td>
+                        <td class="hidden-xs">22.04.2017</td>
+                        <td>01:40</td>
+                        <td class="hidden-xs">Ожидается в 01:40</td>
+                      </tr>
+                      <tr onclick="$(document).ready(function(){$('#MyModal').modal('show');});">
+                        <td>ГЛ-115</td>
+                        <td>МОСКВА (ДМД-DME)</td>
+                        <td class="hidden-xs">22.04.2017</td>
+                        <td>08:10</td>
+                        <td class="hidden-xs">Ожидается в 08:10</td>
+                      </tr>
+                      <tr onclick="$(document).ready(function(){$('#MyModal').modal('show');});">
+                        <td>6В-111</td>
+                        <td>КРАСНОКАМЕНСК -<br> ЧИТА (Кадала)</td>
+                        <td class="hidden-xs">22.04.2017</td>
+                        <td>09:00</td>
+                        <td class="hidden-xs">Ожидается в 09:00</td>
+                      </tr>
                     </tbody>
                   </table>
                   </div>
@@ -287,6 +357,91 @@
                           <td>02:20</td>
                           <td>Вылет в 02:20</td>
                         </tr>
+                        <tr onclick="$(document).ready(function(){$('#MyModalDeparture').modal('show');});">
+                          <td>ИК-100</td>
+                          <td>Н.АНГАРСК -<br> ИРКУТСК</td>
+                          <td>19.04.2017</td>
+                          <td>12:50</td>
+                          <td>Вылетел в 12:52</td>
+                        </tr>
+                        <tr onclick="$(document).ready(function(){$('#MyModalDeparture').modal('show');});">
+                          <td>РД-109</td>
+                          <td>ХАБАРОВСК</td>
+                          <td>19.04.2017</td>
+                          <td>19:20</td>
+                          <td>Вылет в 19:20</td>
+                        </tr>
+                        <tr onclick="$(document).ready(function(){$('#MyModalDeparture').modal('show');});">
+                          <td>РД-110</td>
+                          <td>НОВОСИБИРСК (ТЛЧ)</td>
+                          <td>20.04.2017</td>
+                          <td>02:20</td>
+                          <td>Вылет в 02:20</td>
+                        </tr>
+                        <tr onclick="$(document).ready(function(){$('#MyModalDeparture').modal('show');});">
+                          <td>ИК-100</td>
+                          <td>Н.АНГАРСК -<br> ИРКУТСК</td>
+                          <td>19.04.2017</td>
+                          <td>12:50</td>
+                          <td>Вылетел в 12:52</td>
+                        </tr>
+                        <tr onclick="$(document).ready(function(){$('#MyModalDeparture').modal('show');});">
+                          <td>РД-109</td>
+                          <td>ХАБАРОВСК</td>
+                          <td>19.04.2017</td>
+                          <td>19:20</td>
+                          <td>Вылет в 19:20</td>
+                        </tr>
+                        <tr onclick="$(document).ready(function(){$('#MyModalDeparture').modal('show');});">
+                          <td>РД-110</td>
+                          <td>НОВОСИБИРСК (ТЛЧ)</td>
+                          <td>20.04.2017</td>
+                          <td>02:20</td>
+                          <td>Вылет в 02:20</td>
+                        </tr>
+                        <tr onclick="$(document).ready(function(){$('#MyModalDeparture').modal('show');});">
+                          <td>ИК-100</td>
+                          <td>Н.АНГАРСК -<br> ИРКУТСК</td>
+                          <td>19.04.2017</td>
+                          <td>12:50</td>
+                          <td>Вылетел в 12:52</td>
+                        </tr>
+                        <tr onclick="$(document).ready(function(){$('#MyModalDeparture').modal('show');});">
+                          <td>РД-109</td>
+                          <td>ХАБАРОВСК</td>
+                          <td>19.04.2017</td>
+                          <td>19:20</td>
+                          <td>Вылет в 19:20</td>
+                        </tr>
+                        <tr onclick="$(document).ready(function(){$('#MyModalDeparture').modal('show');});">
+                          <td>РД-110</td>
+                          <td>НОВОСИБИРСК (ТЛЧ)</td>
+                          <td>20.04.2017</td>
+                          <td>02:20</td>
+                          <td>Вылет в 02:20</td>
+                        </tr>
+                        <tr onclick="$(document).ready(function(){$('#MyModalDeparture').modal('show');});">
+                          <td>ИК-100</td>
+                          <td>Н.АНГАРСК -<br> ИРКУТСК</td>
+                          <td>19.04.2017</td>
+                          <td>12:50</td>
+                          <td>Вылетел в 12:52</td>
+                        </tr>
+                        <tr onclick="$(document).ready(function(){$('#MyModalDeparture').modal('show');});">
+                          <td>РД-109</td>
+                          <td>ХАБАРОВСК</td>
+                          <td>19.04.2017</td>
+                          <td>19:20</td>
+                          <td>Вылет в 19:20</td>
+                        </tr>
+                        <tr onclick="$(document).ready(function(){$('#MyModalDeparture').modal('show');});">
+                          <td>РД-110</td>
+                          <td>НОВОСИБИРСК (ТЛЧ)</td>
+                          <td>20.04.2017</td>
+                          <td>02:20</td>
+                          <td>Вылет в 02:20</td>
+                        </tr>
+
                       </tbody>
                     </table>
                   </div>
@@ -296,58 +451,50 @@
             <div class="col-sm-4 col-sm-pull-8">
               <div class="raw">
                 <div class="col-sm-6">
-                  <a href="pax/shedule.html">
+                  <a href="#">
                     <img class="picto" src="img/pax/shedule.png" alt=""><br>Расписание
                   </a>
                 </div>
                 <div class="col-sm-6">
-                  <a href="pax/route.html">
+                  <a href="#">
                     <img class="picto" src="img/pax/route.png" alt=""><br>Проезд и парковка</div>
                   </a>
               </div>
               <div class="raw">
                 <div class="col-sm-6">
-                  <a href="pax/checkin.html">
+                  <a href="#">
                     <img class="picto" src="img/pax/children.png" alt=""><br>Регистрация</div>
                   </a>
                 <div class="col-sm-6">
-                  <a href="pax/luggage.html">
+                  <a href="#">
                     <img class="picto" src="img/pax/luggage.png" alt=""><br>Багаж
                   </a>
                 </div>
               </div>
               <div class="raw">
                 <div class="col-sm-6">
-                  <a href="pax/accessibility.html">
+                  <a href="#">
                     <img class="picto" src="img/pax/acssesebility.png" alt="" alt=""><br>Особым пассажирам
                   </a>
                 </div>
                 <div class="col-sm-6">
-                  <a href="pax/vip.html">
+                  <a href="#">
                     <img class="picto" src="img/pax/vip.png" alt="" alt=""><br>VIP-сервис
                   </a>
                 </div>
               </div>
               <div class="raw">
                 <div class="col-sm-6">
-                  <a href="pax/terminal.html">
+                  <a href="#">
                     <img class="picto" src="img/pax/terminal.png" alt="" alt=""><br>Схема аэровокзала
                   </a>
                 </div>
                 <div class="col-sm-6">
-                  <a href="pax/aviaticket.html">
+                  <a href="#">
                     <img class="picto" src="img/pax/tickets.png" alt="" alt=""><br>Авиабилеты
                   </a>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="raw">
-            <div class="col-sm-6 my-block">
-              блок c новостной лентой
-            </div>
-            <div class="col-sm-6 my-block">
-              блок с авиационной информацией
             </div>
           </div>
         </div>
